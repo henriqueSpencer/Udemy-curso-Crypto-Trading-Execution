@@ -1,0 +1,12 @@
+mkdir nome 
+npm init -y
+npm install
+
+npm install ethers -> é a nova web3
+
+posso get pair no contrato da panacake e ele joga para o contrato do par para pegar mais infos 
+
+tive que voltar a versao do ether para a 5.4
+https://ethereum.stackexchange.com/questions/144451/typeerror-cannot-read-properties-of-undefined-reading-jsonrpcprovider
+
+para rodar: node client/GetPrices.js

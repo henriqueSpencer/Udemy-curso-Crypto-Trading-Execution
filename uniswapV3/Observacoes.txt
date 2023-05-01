@@ -1,0 +1,4 @@
+
+npm i --save @uniswap/v3-sdk
+npm i --save @uniswap/sdk-core
+npm i --save-dev @uniswap/v3-periphery

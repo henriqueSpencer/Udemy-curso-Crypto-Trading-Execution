@@ -1,0 +1,16 @@
+
+//hardhat serve para conseguirmos clonar a blockChain para fazermos os testes
+
+npm install --save-dev hardhat
+npm install --save-dev @nomiclabs/hardhat-ethers 'ethers@^5.4'
+
+npx hardhat
+
+npx hardhat test    //serve para rodar os testes
+
+npx hardhat compile
+
+npx hardhat run script/deploy.js
+
+//Fork da main net
+npx hardhat node --fork https://eth-mainnet.g.alchemy.com/v2/P2C1seY9sUumftbgS1NcHUv9zsPOhGHC

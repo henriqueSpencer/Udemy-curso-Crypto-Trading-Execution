@@ -1,0 +1,42 @@
+
+npx hardhat test
+
+ele ja deu os arqs para interface e libraries 
+
+mudei o hardhat configs para ter o compilador correto para cada arquivo
+
+vai dar o fork com base na url que passamos no configs
+
+
+npx hardhat test
+
+npx hardhat node
+
+# 18/04/2023 
+npm init
+npm install --save-dev hardhat #
+npx hardhat
+npm install #Nao precisa
+npx hardhat test # vai rodar o test 
+npx hardhar node # Vai rodar um node 
+npx hardhat clean # Limpa os arquivos
+npx hardhat compile # Compila o contrato
+npm install --save-dev ethereum-waffle
+npm install --save-dev chai @nomiclabs/hardhat-waffle
+Pastas: dentro de contracts - Iterfaces e libraries 
+ ---  Contratos para ajudar 
+Pasta: utils
+
+
+#TUTORIAIS:
+hadhat é um framework 
+ether é uma lib
+Script é onde voce configura o deploy do seu contrato
+hardhat.configs é onde voce configura as versoes de solidity e tudo mais
+test é onde voce escreve todos os testes com o seu contrato
+No readme tem alguns comandos q voce pode precisar 
+npx hardhat compile # Compila o contrato  e gera uma nova pasta artifacts
+npx hardhat test # Roda os testes
+npx hadhat run Script/deploy.js --network localhost   # deploy no contrato
+## Ele vai dar uma url rpc que posso usar para conectar pela Metamask
+## CONSEGUE DEBUGAR OS CONTRATOS, colocando console.og dentro deles

@@ -1,0 +1,5 @@
+hardhat
+npm install --save-dev hardhat
+npx hardhat
+
+npm i @aave/core-v3 dotenv
